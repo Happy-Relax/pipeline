@@ -7,9 +7,9 @@ namespace test
     {
         private Establish context = () => { };
 
-        It should_failed = () =>
+        It should_pass_1 = () =>
         {
-            Assert.IsFalse(true);
+            Assert.IsFalse(false);
         };
     }
 }
