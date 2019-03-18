@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace test
@@ -19,6 +20,7 @@ namespace test
         [TestMethod]
         public void should_pass()
         {
+            Thread.Sleep(10000);
             Assert.IsFalse(false);
         }
     }
@@ -28,6 +30,7 @@ namespace test
         [TestMethod]
         public void should_pass()
         {
+            Thread.Sleep(10000);
             Assert.IsFalse(false);
         }
     }
@@ -37,6 +40,7 @@ namespace test
         [TestMethod]
         public void should_pass()
         {
+            Thread.Sleep(10000);
             Assert.IsFalse(false);
         }
     }
@@ -46,6 +50,7 @@ namespace test
         [TestMethod]
         public void should_pass()
         {
+            Thread.Sleep(10000);
             Assert.IsFalse(false);
         }
     }
@@ -55,6 +60,7 @@ namespace test
         [TestMethod]
         public void should_pass()
         {
+            Thread.Sleep(10000);
             Assert.IsFalse(false);
         }
     }
@@ -64,6 +70,7 @@ namespace test
         [TestMethod]
         public void should_pass()
         {
+            Thread.Sleep(10000);
             Assert.IsFalse(false);
         }
     }
@@ -73,6 +80,7 @@ namespace test
         [TestMethod]
         public void should_pass()
         {
+            Thread.Sleep(10000);
             Assert.IsFalse(false);
         }
     }
@@ -82,6 +90,7 @@ namespace test
         [TestMethod]
         public void should_pass()
         {
+            Thread.Sleep(10000);
             Assert.IsFalse(false);
         }
     }
@@ -91,6 +100,7 @@ namespace test
         [TestMethod]
         public void should_pass()
         {
+            Thread.Sleep(10000);
             Assert.IsFalse(false);
         }
     }
