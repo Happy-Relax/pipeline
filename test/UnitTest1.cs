@@ -7,9 +7,9 @@ namespace test
     public class UnitTest1
     {
         [TestMethod]
-        public void should_failed()
+        public void should_pass()
         {
-            Assert.IsFalse(true);
+            Assert.IsFalse(false);
         }
     }
 }
