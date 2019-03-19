@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using PipelineHelper;
 
 namespace test
 {
@@ -9,8 +10,9 @@ namespace test
         [TestMethod]
         public void should_pass()
         {
+            var azuerHelper = new AzuerHelper();
+            Assert.AreEqual(azuerHelper.Name, "Hello world");
             Assert.IsFalse(false);
-
         }
     }
 
