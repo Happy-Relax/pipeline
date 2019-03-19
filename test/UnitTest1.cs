@@ -10,6 +10,7 @@ namespace test
         public void should_pass()
         {
             Assert.IsFalse(false);
+
         }
     }
 
