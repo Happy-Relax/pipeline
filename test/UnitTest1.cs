@@ -10,7 +10,7 @@ namespace test
         public void should_pass()
         {
             var azuerHelper = new AzuerHelper();
-            Assert.Equal(azuerHelper.Name, "Hello world");
+            Assert.Equal("Hello world", azuerHelper.Name);
         }
     }
 
