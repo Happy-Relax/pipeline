@@ -1,100 +1,89 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PipelineHelper;
+using Xunit;
 
 namespace test
 {
-    [TestClass]
     public class UnitTest1
     {
-        [TestMethod]
+        [Fact]
         public void should_pass()
         {
             var azuerHelper = new AzuerHelper();
-            Assert.AreEqual(azuerHelper.Name, "Hello world");
-            Assert.IsFalse(false);
+            Assert.Equal(azuerHelper.Name, "Hello world");
         }
     }
 
-    [TestClass]
     public class UnitTest2
     {
-        [TestMethod]
+        [Fact]
         public void should_pass()
         {
-            Assert.IsFalse(false);
+            Assert.False(false);
         }
     }
-    [TestClass]
     public class UnitTest3
     {
-        [TestMethod]
+        [Fact]
         public void should_pass()
         {
-            Assert.IsFalse(false);
+            Assert.False(false);
         }
     }
-    [TestClass]
     public class UnitTest4
     {
-        [TestMethod]
+        [Fact]
         public void should_pass()
         {
-            Assert.IsFalse(false);
+            Assert.False(false);
         }
     }
-    [TestClass]
     public class UnitTest5
     {
-        [TestMethod]
+        [Fact]
         public void should_pass()
         {
-            Assert.IsFalse(false);
+            Assert.False(false);
         }
     }
-    [TestClass]
     public class UnitTest6
     {
-        [TestMethod]
+        [Fact]
         public void should_pass()
         {
-            Assert.IsFalse(false);
+            Assert.False(false);
         }
     }
-    [TestClass]
     public class UnitTest7
     {
-        [TestMethod]
+        [Fact]
         public void should_pass()
         {
-            Assert.IsFalse(false);
+            Assert.False(false);
         }
     }
-    [TestClass]
     public class UnitTest8
     {
-        [TestMethod]
+        [Fact]
         public void should_pass()
         {
-            Assert.IsFalse(false);
+            Assert.False(false);
         }
     }
-    [TestClass]
     public class UnitTest9
     {
-        [TestMethod]
+        [Fact]
         public void should_pass()
         {
-            Assert.IsFalse(false);
+            Assert.False(false);
         }
     }
-    [TestClass]
     public class UnitTest0
     {
-        [TestMethod]
+        [Fact]
         public void should_pass()
         {
-            Assert.IsFalse(false);
+            Assert.False(false);
         }
     }
 }
