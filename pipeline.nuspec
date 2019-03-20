@@ -1,7 +1,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>myPipeline</id>
-        <version>$(Build.BuildId)</version>
+        <version>1.0</version>
         <description>azure pipeline</description>
         <authors>liu jia</authors>
     </metadata>
